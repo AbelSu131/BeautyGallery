@@ -14,4 +14,5 @@
 5.注意storyboard设计Navigation Controller界面时关于segue的modal类型要改为push类型。
 
 6.按住Command点击某个Controller控件代码可显示其方法类。
+
 ![](https://github.com/AbelSu131/BeautyGallery/blob/master/763083-20150901150500466-433169539.gif)
