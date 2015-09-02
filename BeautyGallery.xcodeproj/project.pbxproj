@@ -13,6 +13,9 @@
 		B54A47201B91E7A800821A29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B54A471F1B91E7A800821A29 /* Images.xcassets */; };
 		B54A47231B91E7A800821A29 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B54A47211B91E7A800821A29 /* LaunchScreen.xib */; };
 		B54A472F1B91E7A800821A29 /* BeautyGalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54A472E1B91E7A800821A29 /* BeautyGalleryTests.swift */; };
+		B5C45FE31B92F56D00EA5376 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C45FE21B92F56D00EA5376 /* View.swift */; };
+		B5C45FE51B92F97600EA5376 /* GalleryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C45FE41B92F97600EA5376 /* GalleryController.swift */; };
+		B5D9FDF21B949D3E002CBE3F /* KoreanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D9FDF11B949D3E002CBE3F /* KoreanViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		B54A47281B91E7A800821A29 /* BeautyGalleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeautyGalleryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54A472D1B91E7A800821A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B54A472E1B91E7A800821A29 /* BeautyGalleryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeautyGalleryTests.swift; sourceTree = "<group>"; };
+		B5C45FE21B92F56D00EA5376 /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		B5C45FE41B92F97600EA5376 /* GalleryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryController.swift; sourceTree = "<group>"; };
+		B5D9FDF11B949D3E002CBE3F /* KoreanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KoreanViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 			children = (
 				B54A47181B91E7A800821A29 /* AppDelegate.swift */,
 				B54A471A1B91E7A800821A29 /* ViewController.swift */,
+				B5C45FE41B92F97600EA5376 /* GalleryController.swift */,
+				B5D9FDF11B949D3E002CBE3F /* KoreanViewController.swift */,
+				B5C45FE21B92F56D00EA5376 /* View.swift */,
 				B54A471C1B91E7A800821A29 /* Main.storyboard */,
 				B54A471F1B91E7A800821A29 /* Images.xcassets */,
 				B54A47211B91E7A800821A29 /* LaunchScreen.xib */,
@@ -213,7 +222,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B54A471B1B91E7A800821A29 /* ViewController.swift in Sources */,
+				B5D9FDF21B949D3E002CBE3F /* KoreanViewController.swift in Sources */,
 				B54A47191B91E7A800821A29 /* AppDelegate.swift in Sources */,
+				B5C45FE51B92F97600EA5376 /* GalleryController.swift in Sources */,
+				B5C45FE31B92F56D00EA5376 /* View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +421,7 @@
 				B54A47341B91E7A800821A29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B54A47351B91E7A800821A29 /* Build configuration list for PBXNativeTarget "BeautyGalleryTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +430,7 @@
 				B54A47371B91E7A800821A29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
